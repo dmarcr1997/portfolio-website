@@ -41,7 +41,7 @@ const Home = () =>{
     }
 
     let generateInterests = () => {
-        let interests = ['Guitar', 'Skateboarding', 'Camping']
+        let interests = ['Electrical Engineering', 'Arduino', 'Space']
         return(interests.map(inter => <li><p>{inter}</p></li>))
     }
     let generateEducation = () => {
@@ -60,7 +60,6 @@ const Home = () =>{
             <h1>
             Hi, my name is Damon Rocha
             </h1>
-            <h3>Aspiring Software Engineer, Curious Tinkerer, Passionate Guitarist</h3>
             <Table striped bordered hover>
                 <thead>
                     <tr>
