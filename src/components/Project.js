@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 const Project = (props) => {
     const imgStyl = {
         width: '95%',
-        height: '30em'
+        height: '40em'
     }
     const cardStyle = {
         width: '100%',

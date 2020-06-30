@@ -1,7 +1,6 @@
 import React from 'react';
 import Language from '../components/Language';
 import Slider from 'infinite-react-carousel';
-import MediaQuery from 'react-responsive';
 
 const CodingLangs = () => {
     const rubyPic = require('../media/ruby.jpg')
@@ -39,12 +38,7 @@ const CodingLangs = () => {
     }
     return(
         <>
-            <MediaQuery minDeviceWidth={1224} device={{ deviceWidth: 1600 }}>
-                    {getSliders(3)}
-            </MediaQuery>
-            <MediaQuery maxDeviceWidth={1224}>
-                    {getSliders(1)}
-            </MediaQuery>
+            {getSliders(1)}
         </>
           
     )

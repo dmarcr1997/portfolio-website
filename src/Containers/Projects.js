@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Project from '../components/Project';
 import Slider from 'infinite-react-carousel';
-import MediaQuery from 'react-responsive';
 import CLIProj from '../media/CLIGIF.gif';
 import RustCLI from '../media/RustCLI.gif';
 import SINAProj from '../media/SinatraGif.gif';
@@ -47,12 +46,7 @@ class Projects extends Component{
         return(
         <div style={projStyle}>
             <h1 style={{textAlign:'justify'}}>Projects</h1>
-            <MediaQuery minDeviceWidth={1224} device={{ deviceWidth: 1600 }}>
-                    {this.renderSlider(3)}
-            </MediaQuery>
-            <MediaQuery maxDeviceWidth={1224}>
-                    {this.renderSlider(1)}
-            </MediaQuery>   
+           {this.renderSlider(1)} 
           
         </div>)
     }
