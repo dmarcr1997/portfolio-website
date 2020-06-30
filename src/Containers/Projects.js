@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 import Project from '../components/Project';
 import Slider from 'infinite-react-carousel';
 import MediaQuery from 'react-responsive';
-
+import CLIProj from '../media/CLIGIF.gif';
+import RustCLI from '../media/RustCLI.gif';
+import SINAProj from '../media/SinatraGif.gif';
+import RAILSProj from '../media/RailsGif.gif';
+import JavaSProj from '../media/JavaScriptGif.gif'; 
+import ReactProj from '../media/AdvanceMeGif2.gif';
 class Projects extends Component{
 
     renderSlider(num){
@@ -31,12 +36,6 @@ class Projects extends Component{
         )
     }
     render(){
-        const CLIProj = require('../media/CLIGIF.gif')
-        const RustCLI = require('../media/RustCLI.gif')
-        const SINAProj = require('../media/SinatraGif.gif')
-        const RAILSProj = require('../media/RailsGif.gif')
-        const JavaSProj = require('../media/JavaScriptGif.gif') 
-        const ReactProj = require('../media/AdvanceMeGif2.gif')
         const projStyle = {
                 paddingTop: '2%',
                 textAlign: 'center',
