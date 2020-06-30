@@ -77,12 +77,12 @@ const Home = () =>{
                 </tbody>
             </Table>
         </Jumbotron>
-        <div style={pageStyle}>>>>>>>>>>>></div>
+        <div style={pageStyle}>{'>>>>>>>>>>>'}</div>
         <Jumbotron style={jumbo2Style}>
             
             <About />
         </Jumbotron>
-        <div style={pageStyle}>>>>>>>>>>>></div>
+        <div style={pageStyle}>{'>>>>>>>>>>>'}</div>
         <Container style={codeStyle}>
             <h1>Coding Languages</h1><br/>
             <CodingLangs />
