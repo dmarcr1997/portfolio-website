@@ -5,7 +5,7 @@ import './App.css';
 import Home from './components/Home';
 import Projects from './Containers/Projects';
 import Container from 'react-bootstrap/Container';
-import Blog from './Containers/Blog';
+import Blogs from './Containers/Blogs';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -62,7 +62,7 @@ class App extends Component{
                   <Image src={profPic} style = {picStyle}/>
                 </div>
               </Jumbotron>
-              <NavBar links={['home', 'blog', 'projects', 'resume']} />
+              <NavBar links={['home', 'blogs', 'projects', 'resume']} />
           </Row>
             
           </Container>
@@ -74,7 +74,7 @@ class App extends Component{
           <div className='contbody'>
             <Route path='/' exact component={Home} />
             <Route path='/projects' exact component={Projects} />
-            <Route path='/blog' exact component={Blog} />
+            <Route path='/blogs' exact component={Blogs} />
           </div>
           </div>
         </Router>

@@ -23,11 +23,11 @@ class NavBar extends Component{
         
         return(
             <Row style={navBar}>
-                {this.props.links.map(link => {
+                {this.props.links.map((link, index) => {
                     if (link !== 'home') path = link;
                     else path = '/';
                     return (
-                        <Link linkPath={`${path}`} name= {this.capitalize(link)}/>)
+                        <Link key={index} linkPath={`${path}`} name= {this.capitalize(link)}/>)
                 })}
             </Row> 
         )
