@@ -12,7 +12,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import flatiron from './media/flatiron.jpg';
 import Image from 'react-bootstrap/Image';
 import profPic from './media/headShot.jpg';
-// import Welcome from './components/Welcome';
+import Resume from './components/Resume';
 class App extends Component{
   render(){
     const headStyle = {
@@ -75,6 +75,7 @@ class App extends Component{
             <Route path='/' exact component={Home} />
             <Route path='/projects' exact component={Projects} />
             <Route path='/blogs' exact component={Blogs} />
+            <Route path='/resume' exact component={Resume} />
           </div>
           </div>
         </Router>

@@ -33,7 +33,7 @@ class Blogs extends Component{
         const blogStyle = {
             background: 'black',
             color: 'white',
-            textAlign: 'center'
+            textAlign: 'justify'
         }
         return(
             <div style={blogStyle}>
