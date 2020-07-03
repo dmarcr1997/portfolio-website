@@ -36,7 +36,7 @@ class Projects extends Component{
     }
     render(){
         const projStyle = {
-                paddingTop: '2%',
+                paddingTop: '1%',
                 textAlign: 'center',
                 borderRadius: '30px',
                 background: '#00001a',

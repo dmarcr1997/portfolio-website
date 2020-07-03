@@ -12,7 +12,7 @@ const Project = (props) => {
         color: 'white',
         textAlign: 'center',
         borderRadius: '10px',
-        paddingTop: '10%'
+        paddingTop: '2%'
     }
     let buttonSty = {
       padding: '.25em',
