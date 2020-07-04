@@ -28,7 +28,7 @@ const Home = () =>{
 
     const codeStyle = {
         paddingTop: '2%',
-        textAlign: 'center',
+        textAlign: 'justify',
         borderRadius: '30px',
         background: '#00001a',
         color: '#e6ffff',
@@ -41,7 +41,7 @@ const Home = () =>{
     }
 
     let generateInterests = () => {
-        let interests = ['Electrical Engineering', 'Arduino', 'Space']
+        let interests = ['Electrical Engineering', 'Arduino', 'Space Science']
         return(interests.map(inter => <li><p>{inter}</p></li>))
     }
     let generateEducation = () => {
@@ -49,7 +49,7 @@ const Home = () =>{
         return( Education.map(ed => <li><p>{ed}</p></li>))
     }
     let generateWork = () => {
-        let work = ['Regex with Rust', 'Data Handling Python', 'Rails File cloud']
+        let work = ['Rust Testing', 'Rails File Server', 'C++/Unreal']
         return(work.map(wrk => <li><p>{wrk}</p></li>))
     }
 
@@ -84,7 +84,7 @@ const Home = () =>{
         </Jumbotron>
         <div style={pageStyle}>{'>>>>>>>>>>>'}</div>
         <Container style={codeStyle}>
-            <h1>Coding Languages</h1><br/>
+            <h1>Coding Languages</h1>
             <CodingLangs />
         </Container>
 

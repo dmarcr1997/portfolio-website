@@ -23,7 +23,7 @@ const CodingLangs = () => {
                         <Language name={"Rust"} exp={"Intermediate"} pic={rustPic} text={"Built many CLI projects. Experience in Larger Projects soon to come"}/>
                     </div>
                     <div>
-                        <Language name={"C++"} exp={"Intermediate"} pic={cPic} text={"Built many CLI projects in college programming Classes. A little rusty but could pick up again easily"}/>
+                        <Language name={"C++"} exp={"Intermediate"} pic={cPic} text={"Built many CLI projects in college programming Classes. Working with Unreal/Animations"}/>
                     </div>
                     <div>
                         <Language name={"Python"} exp={"Intermediate"} pic={pythPic} text={"Have much experience in basic python, working towards using with machine learning and AIs"}/>
