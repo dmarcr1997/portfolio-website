@@ -49,7 +49,7 @@ const Home = () =>{
         return( Education.map(ed => <li><p>{ed}</p></li>))
     }
     let generateWork = () => {
-        let work = ['Rust Testing', 'Rails File Server', 'C++/Unreal']
+        let work = ['React/TypeScript', 'Sklearn', 'C++/Unreal']
         return(work.map(wrk => <li><p>{wrk}</p></li>))
     }
 
