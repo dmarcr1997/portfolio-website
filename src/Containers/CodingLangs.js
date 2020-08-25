@@ -5,8 +5,8 @@ import Row from 'react-bootstrap/Row';
 const CodingLangs = () => {
     let getSliders = () => {
             const svgStyle = {
-                width: '10em',
-                height: '10em',
+                width: '8em',
+                height: '8em',
                 paddingLeft: '8em',
                 paddingRight: '8em'
             }
