@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ResumePdf from '../media/DamonRochaResume.pdf';
 import FileIc from '../media/fileIcon.jpg';
+
 class Resume extends Component {
      
       render() {
